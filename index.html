@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Net Worth</title>
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="calculator">
+  <h3 class="center">Know Your Net Worth</h3>
+  <!---Have a tooltip with info that tells you how to use the site-->
+  <p class="center">The calculation is made from your Total Assets and Liabilities</p>
+  <form action="">
+    <div class="assets-container">
+        
+      <label for="assets">Assets</label>
+      <input type="text" name="" placeholder="Enter an asset" id="assets">
+      <label for="ass">Type</label>
+      <select name="assets" id="ass">
+          <option value="car">Car</option>
+          <option value="real-estate">Real Estate</option>
+          <option value="checking-account">Checking Account</option>
+          <option value="savings">Savings</option>
+          <option value="retirement-account">Retirement Acount</option>
+          <option value="other-assets">Other Asset</option>
+        </select>
+      <button id="add-assets">+</button>
+    </div>
+  
+  <div class="liability-container">
+
+    <label for="Liability">Liability</label>
+    <input type="text" placeholder="Enter a liability" name="" id="liabilities">
+    <for id="liabi">Type</for>
+    <select name="liabilities" id="liabi">
+        <option value="bank-loan">Bank Loan</option>
+        <option value="student-loan">Student Loan</option>
+        <option value="car-loan">Car Loan</option>
+        <option value="other-debts">Other Debts</option>
+      </select>
+    <button id="add-liabilities">+</button>
+  </div>
+  
+  </form>
+  <div class="net-worth-container center block">
+    <h3 id="networth"></h3>
+    <button id="calculate" class="calculate">CALCULATE NET WORTH</button>
+  </div>
+  
+  </div>
+  
+
+  
+</body>
+</html>
